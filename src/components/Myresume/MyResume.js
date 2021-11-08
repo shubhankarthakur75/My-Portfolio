@@ -60,6 +60,43 @@ class MyResume extends Component {
                         <p className="resume-project-desc">
                           {projectItem.projectDesc}
                         </p>
+
+                        <div>
+                          <span>
+                            <a
+                              href={projectItem.hostURL}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="host-url github-links"
+                            >
+                              <button className="github-links-btn">
+                                Host URL
+                              </button>
+                            </a>
+                          </span>
+                          <span>
+                            <a
+                              href={projectItem.repoURL}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="repo-url github-links"
+                            >
+                              <button className="github-links-btn">
+                                Repo URL
+                              </button>
+                            </a>
+                          </span>
+                        </div>
+                        {/* <a
+                          href={projectItem.repoURL}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="repository-link"
+                        >
+                          <p className="repository-link-text">
+                            Repository Link
+                          </p>
+                        </a> */}
                       </li>
                     </div>
                   );

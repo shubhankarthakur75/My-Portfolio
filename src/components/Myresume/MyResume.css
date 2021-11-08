@@ -147,15 +147,30 @@
   margin: 5px 10px 5px 0px;
   cursor: pointer;
 }
+.my-resume-container .technology-used {
+  display: inline-block;
+  margin: 5px 10px 5px 0px;
+}
+
+.my-resume-container .github-links-btn {
+  width: 90px;
+  height: 30px;
+  background-color: #fca738;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.my-resume-container .github-links :hover {
+  background-color: #105652;
+}
 
 .my-resume-container .resume-project-desc {
   font-size: 16px;
   font-weight: 400;
   color: #333333;
-}
-.my-resume-container .technology-used {
-  display: inline-block;
-  margin: 5px 10px 5px 0px;
 }
 
 /* Responsive MyResume */
@@ -204,6 +219,12 @@
 
   .my-resume-container .resume-project-desc {
     font-size: 15px;
+  }
+
+  .my-resume-container .github-links-btn {
+    width: 80px;
+    height: 28px;
+    margin-right: 20px;
   }
 }
 
@@ -262,6 +283,12 @@
   .my-resume-container .resume-project-desc {
     font-size: 14px;
     margin: 8px 0px;
+  }
+  .my-resume-container .github-links-btn {
+    font-size: 12px;
+    width: 75px;
+    height: 26px;
+    margin-right: 20px;
   }
 }
 
@@ -344,6 +371,12 @@
     font-size: 14px;
     margin: 8px 0px;
   }
+  .my-resume-container .github-links-btn {
+    font-size: 12px;
+    width: 75px;
+    height: 26px;
+    margin-right: 20px;
+  }
 }
 
 /* For screen-size 350px-500px */
@@ -361,5 +394,12 @@
 
   .my-resume-container .resume-project {
     padding-left: 5px;
+  }
+
+  .my-resume-container .github-links-btn {
+    font-size: 12px;
+    width: 70px;
+    height: 24px;
+    margin-right: 20px;
   }
 }
