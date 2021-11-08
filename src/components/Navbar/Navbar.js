@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import HamburgerMenuIcon from "../../assets/images/hamburger-menu-32px.png";
 import "./Navbar.css";
 import HamburgerMenu from "./HamburgerMenu.js";
@@ -9,12 +10,9 @@ class Navbar extends Component {
   };
 
   handleHamburgerMenu = () => {
-    this.setState(
-      {
-        isHamburgerMenuVisible: !this.state.isHamburgerMenuVisible,
-      },
-      () => console.log(this.state.isHamburgerMenuVisible)
-    );
+    this.setState({
+      isHamburgerMenuVisible: !this.state.isHamburgerMenuVisible,
+    });
   };
 
   render() {
@@ -22,11 +20,32 @@ class Navbar extends Component {
       <div className="navbar">
         <div className="nav-name">{this.props.propsName}</div>
         <div className="nav-items">
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Resume</li>
-          <li>Contact</li>
+          <li className="nav-link">
+            <Link smooth to="#home">
+              Home
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link smooth to="#about-me">
+              About
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link smooth to="#portfolio">
+              Portfolio
+            </Link>
+          </li>
+
+          <li className="nav-link">
+            <Link smooth to="#resume">
+              Resume
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link smooth to="#contact">
+              Contact
+            </Link>
+          </li>
         </div>
         <div className="hamburger-menu">
           <img

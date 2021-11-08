@@ -9,7 +9,7 @@ import WebDeveloper from "../../assets/images/web-developer.jpg";
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about-me-container">
+      <div className="about-me-container" id="about-me">
         <div className="about-me-image-container">
           <img src={WebDeveloper} id="about-me-image" alt="web-developer" />
         </div>

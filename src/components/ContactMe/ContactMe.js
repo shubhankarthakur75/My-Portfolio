@@ -8,7 +8,7 @@ import ContactUs from "../../assets/images/contact-us.jpg";
 class ContactMe extends Component {
   render() {
     return (
-      <div className="contact-me-container">
+      <div className="contact-me-container" id="contact">
         <h2 className="contact-me-title">Contact Me</h2>
         <div className="contact-me-boxes">
           <div className="contact-me-left-box">

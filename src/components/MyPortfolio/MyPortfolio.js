@@ -8,7 +8,7 @@ import myPortfolioImage from "../../assets/images/my-portfolio-image.png";
 class MyPortfolio extends Component {
   render() {
     return (
-      <div className="my-portfolio-container">
+      <div className="my-portfolio-container" id="portfolio">
         <h2 className="my-portfolio-title">My Portfolio</h2>
         <div className="project-image-container">
           <div>

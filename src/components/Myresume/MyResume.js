@@ -4,7 +4,7 @@ import "./MyResume.css";
 class MyResume extends Component {
   render() {
     return (
-      <div className="my-resume-container">
+      <div className="my-resume-container" id="resume">
         <h2 className="my-resume-title">Resume</h2>
         <div className="resume-and-image-container">
           <div className="resume-left-box">

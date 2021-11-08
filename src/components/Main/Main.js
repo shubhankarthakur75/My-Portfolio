@@ -7,6 +7,7 @@ import MyPortfolio from "../MyPortfolio/MyPortfolio";
 import MyResume from "../Myresume/MyResume";
 import ContactMe from "../ContactMe/ContactMe";
 import Footer from "../Footer/Footer";
+import { Routes, Route } from "react-router-dom";
 
 class Main extends Component {
   state = {
@@ -69,10 +70,8 @@ class Main extends Component {
   };
   render() {
     return (
-      <div className="main">
-        <div className="navbar">
-          <Navbar propsName={this.state.name} />
-        </div>
+      <div className="main" id="home">
+        <div className="navbar">{<Navbar propsName={this.state.name} />}</div>
 
         <div className="image-showcase">
           <Showcase
