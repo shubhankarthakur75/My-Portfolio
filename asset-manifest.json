@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.45b025b8.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.89a13863.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.89a13863.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.79a36a94.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.8228287b.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.8228287b.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.4bbb170a.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.4bbb170a.js.map",
     "static/js/2.79943b14.chunk.js": "/My-Portfolio/static/js/2.79943b14.chunk.js",
@@ -10,13 +10,12 @@
     "static/js/3.f418702b.chunk.js": "/My-Portfolio/static/js/3.f418702b.chunk.js",
     "static/js/3.f418702b.chunk.js.map": "/My-Portfolio/static/js/3.f418702b.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "static/css/main.45b025b8.chunk.css.map": "/My-Portfolio/static/css/main.45b025b8.chunk.css.map",
+    "static/css/main.79a36a94.chunk.css.map": "/My-Portfolio/static/css/main.79a36a94.chunk.css.map",
     "static/js/2.79943b14.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.79943b14.chunk.js.LICENSE.txt",
     "static/media/CSS3-logo.f4e99897.ico": "/My-Portfolio/static/media/CSS3-logo.f4e99897.ico",
     "static/media/Github-logo.1c812a09.ico": "/My-Portfolio/static/media/Github-logo.1c812a09.ico",
     "static/media/HTML5-logo.14a91260.ico": "/My-Portfolio/static/media/HTML5-logo.14a91260.ico",
     "static/media/ReactJs-logo.698b275f.ico": "/My-Portfolio/static/media/ReactJs-logo.698b275f.ico",
-    "static/media/backtracking-image.467323c3.png": "/My-Portfolio/static/media/backtracking-image.467323c3.png",
     "static/media/contact-us.3a9028b9.jpg": "/My-Portfolio/static/media/contact-us.3a9028b9.jpg",
     "static/media/digital-clock-image.8543e260.png": "/My-Portfolio/static/media/digital-clock-image.8543e260.png",
     "static/media/my-portfolio-image.1f5bd09e.png": "/My-Portfolio/static/media/my-portfolio-image.1f5bd09e.png",
@@ -28,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.4bbb170a.js",
     "static/js/2.79943b14.chunk.js",
-    "static/css/main.45b025b8.chunk.css",
-    "static/js/main.89a13863.chunk.js"
+    "static/css/main.79a36a94.chunk.css",
+    "static/js/main.8228287b.chunk.js"
   ]
 }
