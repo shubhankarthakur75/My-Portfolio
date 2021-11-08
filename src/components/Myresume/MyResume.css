@@ -222,8 +222,8 @@
   }
 
   .my-resume-container .github-links-btn {
-    width: 80px;
-    height: 28px;
+    width: 90px;
+    height: 30px;
     margin-right: 20px;
   }
 }
@@ -286,8 +286,8 @@
   }
   .my-resume-container .github-links-btn {
     font-size: 12px;
-    width: 75px;
-    height: 26px;
+    width: 80px;
+    height: 27px;
     margin-right: 20px;
   }
 }
@@ -372,9 +372,9 @@
     margin: 8px 0px;
   }
   .my-resume-container .github-links-btn {
-    font-size: 12px;
+    font-size: 11px;
     width: 75px;
-    height: 26px;
+    height: 27px;
     margin-right: 20px;
   }
 }
@@ -397,9 +397,9 @@
   }
 
   .my-resume-container .github-links-btn {
-    font-size: 12px;
-    width: 70px;
-    height: 24px;
+    font-size: 11px;
+    width: 75px;
+    height: 27px;
     margin-right: 20px;
   }
 }

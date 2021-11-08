@@ -4,7 +4,7 @@ import ToDoWebImage from "../../assets/images/to-do-web-image.png";
 import ToDoMobileImage from "../../assets/images/to-do-mobile-image.png";
 import DigitalClock from "../../assets/images/digital-clock-image.png";
 import myPortfolioImage from "../../assets/images/my-portfolio-image.png";
-import backtrackingImage from "../../assets/images/backtracking-image.png";
+// import backtrackingImage from "../../assets/images/backtracking-image.png";
 
 class MyPortfolio extends Component {
   render() {
