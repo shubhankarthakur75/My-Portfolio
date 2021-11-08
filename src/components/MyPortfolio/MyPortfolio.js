@@ -57,21 +57,6 @@ class MyPortfolio extends Component {
             </a>
           </div>
 
-          {/* <div>
-            <a
-              href="https://shubhankarthakur75.github.io/Basic-HTML-Page/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                id="backtracking-image"
-                className="project-image"
-                src={backtrackingImage}
-                alt="Backtracking"
-              />
-            </a>
-          </div> */}
-
           <div>
             <a
               href="https://shubhankarthakur75.github.io/Digital-Clock/"

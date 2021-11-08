@@ -70,7 +70,7 @@ class MyResume extends Component {
                               className="host-url github-links"
                             >
                               <button className="github-links-btn">
-                                Host URL
+                                Hosted URL
                               </button>
                             </a>
                           </span>
