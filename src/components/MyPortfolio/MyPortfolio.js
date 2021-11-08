@@ -4,6 +4,7 @@ import ToDoWebImage from "../../assets/images/to-do-web-image.png";
 import ToDoMobileImage from "../../assets/images/to-do-mobile-image.png";
 import DigitalClock from "../../assets/images/digital-clock-image.png";
 import myPortfolioImage from "../../assets/images/my-portfolio-image.png";
+import backtrackingImage from "../../assets/images/backtracking-image.png";
 
 class MyPortfolio extends Component {
   render() {
@@ -55,6 +56,21 @@ class MyPortfolio extends Component {
               />
             </a>
           </div>
+
+          {/* <div>
+            <a
+              href="https://shubhankarthakur75.github.io/Basic-HTML-Page/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                id="backtracking-image"
+                className="project-image"
+                src={backtrackingImage}
+                alt="Backtracking"
+              />
+            </a>
+          </div> */}
 
           <div>
             <a
