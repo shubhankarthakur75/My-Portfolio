@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.f995394d.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.8a4887d5.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.8a4887d5.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.0e80942a.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.12511cdc.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.12511cdc.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.008cb63b.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.008cb63b.js.map",
     "static/js/2.100033da.chunk.js": "/My-Portfolio/static/js/2.100033da.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.73c1de61.chunk.js": "/My-Portfolio/static/js/3.73c1de61.chunk.js",
     "static/js/3.73c1de61.chunk.js.map": "/My-Portfolio/static/js/3.73c1de61.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "static/css/main.f995394d.chunk.css.map": "/My-Portfolio/static/css/main.f995394d.chunk.css.map",
+    "static/css/main.0e80942a.chunk.css.map": "/My-Portfolio/static/css/main.0e80942a.chunk.css.map",
     "static/js/2.100033da.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.100033da.chunk.js.LICENSE.txt",
     "static/media/CSS3-logo.f4e99897.ico": "/My-Portfolio/static/media/CSS3-logo.f4e99897.ico",
     "static/media/Github-logo.1c812a09.ico": "/My-Portfolio/static/media/Github-logo.1c812a09.ico",
@@ -18,7 +18,7 @@
     "static/media/ReactJs-logo.698b275f.ico": "/My-Portfolio/static/media/ReactJs-logo.698b275f.ico",
     "static/media/contact-us.3a9028b9.jpg": "/My-Portfolio/static/media/contact-us.3a9028b9.jpg",
     "static/media/digital-clock-image.8543e260.png": "/My-Portfolio/static/media/digital-clock-image.8543e260.png",
-    "static/media/my-portfolio-image.1ce4b4f0.png": "/My-Portfolio/static/media/my-portfolio-image.1ce4b4f0.png",
+    "static/media/my-portfolio-image.1f5bd09e.png": "/My-Portfolio/static/media/my-portfolio-image.1f5bd09e.png",
     "static/media/portfolio-image.3a610638.png": "/My-Portfolio/static/media/portfolio-image.3a610638.png",
     "static/media/to-do-mobile-image.fc9a74c1.png": "/My-Portfolio/static/media/to-do-mobile-image.fc9a74c1.png",
     "static/media/to-do-web-image.f895b7e9.png": "/My-Portfolio/static/media/to-do-web-image.f895b7e9.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.008cb63b.js",
     "static/js/2.100033da.chunk.js",
-    "static/css/main.f995394d.chunk.css",
-    "static/js/main.8a4887d5.chunk.js"
+    "static/css/main.0e80942a.chunk.css",
+    "static/js/main.12511cdc.chunk.js"
   ]
 }
