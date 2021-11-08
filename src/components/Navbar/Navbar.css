@@ -25,6 +25,15 @@
   padding-top: 25px;
   font-size: 16px;
 }
+.navbar .hamburger-menu {
+  display: none;
+}
+
+.navbar .hamburger-menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 /* Responsive Navbar */
 /* For screen-size 970px-1235px */
@@ -67,6 +76,7 @@
   }
 
   .navbar .nav-items {
+    padding-right: 10px;
     font-size: 13px;
     display: flex;
     flex-direction: row;
@@ -82,11 +92,21 @@
   .navbar .nav-name {
     width: 60%;
     font-size: 20px;
-    padding: 20px 10px 0px 10px;
+    padding: 21px 10px 20px 10px;
     text-align: left;
   }
 
   .navbar .nav-items {
     display: none;
+  }
+
+  .navbar .hamburger-menu {
+    display: initial;
+  }
+
+  .navbar #hamburger-menu-icon {
+    display: initial;
+    cursor: pointer;
+    margin: 20px;
   }
 }

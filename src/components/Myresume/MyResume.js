@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./MyResume.css";
-import ResumeImage from "../../assets/images/resume-image.jpg";
 
 class MyResume extends Component {
   render() {
@@ -40,11 +39,15 @@ class MyResume extends Component {
             <div className="resume-projects-container">
               <h2 className="resume-projects-title">Projects</h2>
               <div className="projects-list">
-                {this.props.propsProjects.map((projectItem) => {
+                {this.props.propsProjects.map((projectItem, index) => {
                   return (
-                    <div className="resume-project">
+                    <div className="resume-project" key={index}>
                       <li>
-                        <a href={projectItem.hostURL} target="_blank">
+                        <a
+                          href={projectItem.hostURL}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <h2 className="resume-project-name">
                             {projectItem.projectName}
                           </h2>

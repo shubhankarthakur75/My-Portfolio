@@ -21,6 +21,11 @@
   height: 244px;
   border-radius: 12px;
   margin: 10px 0px;
+  cursor: pointer;
+}
+
+.my-portfolio-container img :hover {
+  transform: scale(1.05, 1.05);
 }
 
 /* Responsive Myportfolio.css */

@@ -1,0 +1,33 @@
+.hamburger-menu-container {
+  width: 80%;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hamburger-menu-container li {
+  height: 62px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 16px;
+  color: #105652;
+  border-bottom: 1px solid #ededed;
+  padding: 20px;
+}
+
+.hamburger-menu-container #cancel-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.hamburger-menu-container #cancel-btn {
+  float: right;
+  cursor: pointer;
+  background-color: initial;
+  color: #ffffff;
+  border: none;
+}
