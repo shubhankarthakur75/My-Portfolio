@@ -1,0 +1,264 @@
+.about-me-container {
+  background-color: #ffffff;
+  width: 90%;
+  height: 578px;
+  margin: 60px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-me-container .about-me-image-container {
+  /* height: 578px; */
+  width: 49%;
+}
+
+.about-me-container #about-me-image {
+  width: 85%;
+}
+
+.about-me-container .about-me-title-text-container {
+  width: 49%;
+  padding: 40px 30px 10px 5px;
+}
+
+.about-me-container .about-me-title {
+  font-size: 35px;
+  color: #105652;
+  border-bottom: 7px solid #fca738;
+  /* display: inline-block; */
+  float: left;
+}
+
+.about-me-container .about-me-text {
+  clear: left;
+  text-align: left;
+  font-size: 18px;
+  color: #105652;
+}
+
+.about-me-container .technolgy-icon-container {
+  height: 120px;
+  width: 78%;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #105652;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px #31313121;
+}
+
+.about-me-container .technology-icon {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+/* Responsive AboutMe */
+/* for screen-size 970px-1235px */
+@media screen and (min-width: 970px) and (max-width: 1235px) {
+  .about-me-container {
+    height: 510px;
+  }
+  .about-me-container .about-me-image-container {
+    padding-top: 20px;
+  }
+  .about-me-container #about-me-image {
+    width: 90%;
+  }
+
+  .about-me-container .about-me-title-text-container {
+    padding: 40px 10px 10px 5px;
+  }
+
+  .about-me-container .about-me-title {
+    font-size: 33px;
+  }
+
+  .about-me-container .about-me-text {
+    font-size: 16px;
+  }
+
+  .about-me-container .technolgy-icon-container {
+    height: 110px;
+    margin-top: 50px;
+    padding: 8px;
+  }
+
+  .about-me-container .technolgy-icon-container p {
+    margin: 8px;
+  }
+  .about-me-container .technology-icon {
+    margin: 8px;
+    height: 35px;
+    width: 35px;
+  }
+}
+
+/* for screen-size 700px-970px */
+@media screen and (min-width: 700px) and (max-width: 970px) {
+  .about-me-container {
+    height: auto;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me-container .about-me-image-container {
+    /* height: 578px; */
+    width: 90%;
+  }
+  .about-me-container .about-me-title-text-container {
+    width: 90%;
+    padding: 10px 5px;
+    margin: auto;
+  }
+
+  .about-me-container #about-me-image {
+    width: 75%;
+  }
+
+  .about-me-container .about-me-title {
+    font-size: 30px;
+    display: inline-block;
+    float: none;
+    border-bottom: 5px solid #fca738;
+    margin-top: 5px;
+  }
+
+  .about-me-container .about-me-text {
+    font-size: 15px;
+  }
+
+  .about-me-container .technolgy-icon-container {
+    height: 100px;
+    margin: 40px auto;
+    padding: 8px;
+  }
+
+  .about-me-container .technolgy-icon-container p {
+    margin: 7px;
+  }
+  .about-me-container .technology-icon {
+    margin: 8px;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+/* For screen-size 500px-700px */
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .about-me-container {
+    height: auto;
+    margin: 60px auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-me-container .about-me-image-container {
+    /* height: 578px; */
+    width: 95%;
+  }
+
+  .about-me-container #about-me-image {
+    width: 90%;
+  }
+
+  .about-me-container .about-me-title-text-container {
+    width: 95%;
+    padding: 10px 5px;
+  }
+
+  .about-me-container .about-me-title {
+    font-size: 24px;
+    display: inline-block;
+    float: none;
+    border-bottom: 5px solid #fca738;
+    margin-top: 5px;
+  }
+
+  .about-me-container .about-me-text {
+    font-size: 16px;
+  }
+
+  .about-me-container .technolgy-icon-container {
+    height: 100px;
+    width: 78%;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #31313121;
+  }
+
+  .about-me-container .technolgy-icon-container p {
+    margin: 7px;
+  }
+  .about-me-container .technology-icon {
+    margin: 8px;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+/* For screen-size 350px-500px */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .about-me-container {
+    height: auto;
+    margin: 50px auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-me-container .about-me-image-container {
+    /* height: 578px; */
+    width: 95%;
+  }
+
+  .about-me-container #about-me-image {
+    width: 90%;
+  }
+
+  .about-me-container .about-me-title-text-container {
+    width: 95%;
+    padding: 10px 5px;
+  }
+
+  .about-me-container .about-me-title {
+    font-size: 24px;
+    display: inline-block;
+    float: none;
+    border-bottom: 5px solid #fca738;
+    margin-top: 5px;
+  }
+
+  .about-me-container .about-me-text {
+    font-size: 14px;
+  }
+
+  .about-me-container .technolgy-icon-container {
+    height: 100px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #31313121;
+  }
+
+  .about-me-container .technolgy-icon-container p {
+    margin: 7px;
+    font-size: 14px;
+  }
+  .about-me-container .technology-icon {
+    margin: 8px;
+    height: 30px;
+    width: 30px;
+  }
+}

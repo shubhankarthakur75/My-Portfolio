@@ -1,0 +1,365 @@
+.my-resume-container {
+  width: 90%;
+  margin: 80px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.my-resume-container .my-resume-title {
+  display: inline-block;
+  border-bottom: 7px solid #fca738ed;
+  font-size: 35px;
+  color: #105652;
+}
+
+.my-resume-container .resume-and-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-resume-container .resume-left-box {
+  width: 46%;
+}
+.my-resume-container .resume-right-box {
+  width: 46%;
+  text-align: left;
+  border-radius: 17px;
+}
+
+.my-resume-container .resume-education {
+  margin-bottom: 30px;
+}
+
+.my-resume-container .resume-education-title {
+  text-align: left;
+  font-size: 24px;
+  color: #105652;
+  border-bottom: 2px solid #c2c2c2;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+.my-resume-container .education-list {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #105652;
+  border-left: 2px solid #09bcab;
+  margin-left: 0px;
+  padding-left: 5px;
+  text-align: left;
+  line-height: 35px;
+}
+
+.my-resume-container .education-list p {
+  margin: 5px;
+}
+
+.my-resume-container #education-university {
+  font-size: 20px;
+}
+.my-resume-container #education-degree {
+  font-size: 16px;
+  font-weight: 700;
+}
+.my-resume-container .education-score {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.my-resume-container .resume-technical-skills {
+  margin: 20px 0px;
+}
+.my-resume-container .resume-technical-skill-title {
+  text-align: left;
+  font-size: 24px;
+  color: #105652;
+  border-bottom: 2px solid #c2c2c2;
+  padding: 5px;
+}
+
+.my-resume-container .technical-skills-list {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #105652;
+  border-left: 2px solid #09bcab;
+  margin-left: 0px;
+  padding-left: 5px;
+  text-align: left;
+  line-height: 35px;
+}
+
+.my-resume-container #resume-btn {
+  display: none;
+  float: left;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fca738;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+#resume-btn:hover {
+  transform: scale(1.05, 1.05);
+  background-color: #105652;
+}
+
+/* Resume right box */
+.my-resume-container .resume-projects-title {
+  font-size: 24px;
+  color: #105652;
+  border-bottom: 2px solid #c2c2c2;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+.my-resume-container .resume-right-box .projects-list {
+  list-style-type: none;
+}
+
+.my-resume-container .resume-project {
+  border-left: 2px solid #09bcab;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+/* .my-resume-container .resume-project :hover {
+  background-color: #105652;
+  border-radius: 20px;
+  padding: 5px;
+  color: #ffffff;
+} */
+
+.my-resume-container .resume-project-name {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #105652;
+  margin: 5px 10px 5px 0px;
+  cursor: pointer;
+}
+
+.my-resume-container .resume-project-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+.my-resume-container .technology-used {
+  display: inline-block;
+  margin: 5px 10px 5px 0px;
+}
+
+/* Responsive MyResume */
+/* For screen-size 975px-1235px */
+@media screen and (min-width: 975px) and (max-width: 1235px) {
+  .my-resume-container .my-resume-title {
+    font-size: 33px;
+  }
+
+  .my-resume-container .resume-education-title {
+    font-size: 23px;
+  }
+
+  .my-resume-container #education-university {
+    font-size: 18px;
+  }
+  .my-resume-container #education-degree {
+    font-size: 15px;
+  }
+  .my-resume-container .education-score {
+    font-size: 15px;
+  }
+
+  .my-resume-container .resume-technical-skills {
+    margin: 20px 0px;
+  }
+  .my-resume-container .resume-technical-skill-title {
+    font-size: 23px;
+  }
+
+  .my-resume-container .technical-skills-list {
+    font-size: 15px;
+  }
+
+  .my-resume-container #resume-btn {
+    font-size: 15px;
+  }
+
+  .my-resume-container .resume-projects-title {
+    font-size: 23px;
+  }
+
+  .my-resume-container .resume-project-name {
+    font-size: 18px;
+  }
+
+  .my-resume-container .resume-project-desc {
+    font-size: 15px;
+  }
+}
+
+/* For screen-size 700px-975px */
+@media screen and (min-width: 700px) and (max-width: 975px) {
+  .my-resume-container .my-resume-title {
+    font-size: 30px;
+    border-bottom: 5px solid #fca738;
+  }
+
+  .my-resume-container .resume-education-title {
+    font-size: 22px;
+  }
+
+  .my-resume-container .education-list p {
+    margin: 0;
+  }
+  .my-resume-container #education-university {
+    font-size: 17px;
+  }
+  .my-resume-container #education-degree {
+    font-size: 14px;
+  }
+  .my-resume-container .education-score {
+    font-size: 14px;
+  }
+
+  .my-resume-container .resume-technical-skills {
+    margin: 20px 0px;
+  }
+  .my-resume-container .resume-technical-skill-title {
+    font-size: 22px;
+  }
+
+  .my-resume-container .technical-skills-list {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .my-resume-container #resume-btn {
+    font-size: 14px;
+  }
+
+  .my-resume-container .resume-projects-title {
+    font-size: 22px;
+  }
+
+  .my-resume-container .technology-used {
+    font-size: 15px;
+  }
+
+  .my-resume-container .resume-project-name {
+    font-size: 17px;
+  }
+
+  .my-resume-container .resume-project-desc {
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+}
+
+/* For screen-size 350px-700px */
+@media screen and (min-width: 350px) and (max-width: 700px) {
+  .my-resume-container .my-resume-title {
+    border-bottom: 5px solid #fca738ed;
+    font-size: 24px;
+  }
+
+  .my-resume-container .resume-and-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-resume-container .resume-left-box {
+    width: 95%;
+  }
+  .my-resume-container .resume-right-box {
+    width: 95%;
+  }
+
+  .my-resume-container .my-resume-title {
+    font-size: 24px;
+    border-bottom: 5px solid #fca738;
+  }
+
+  .my-resume-container .resume-education-title {
+    font-size: 20px;
+  }
+
+  .my-resume-container .education-list p {
+    margin: 0;
+  }
+  .my-resume-container #education-university {
+    font-size: 18px;
+  }
+  .my-resume-container #education-degree {
+    font-size: 14px;
+  }
+  .my-resume-container .education-score {
+    font-size: 14px;
+  }
+
+  .my-resume-container .resume-technical-skills {
+    margin: 20px 0px;
+  }
+  .my-resume-container .resume-technical-skill-title {
+    font-size: 20px;
+  }
+
+  .my-resume-container .technical-skills-list {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .my-resume-container #resume-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .my-resume-container .resume-projects-container {
+    margin-top: 20px;
+  }
+  .my-resume-container .resume-projects-title {
+    font-size: 20px;
+  }
+
+  .my-resume-container .technology-used {
+    font-size: 15px;
+  }
+
+  .my-resume-container .resume-project-name {
+    font-size: 17px;
+  }
+
+  .my-resume-container .resume-project-desc {
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+}
+
+/* For screen-size 350px-500px */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .my-resume-container {
+    padding: 10px;
+    margin: 50px auto;
+  }
+  .my-resume-container .resume-left-box {
+    width: 98%;
+  }
+  .my-resume-container .resume-right-box {
+    width: 98%;
+  }
+
+  .my-resume-container .resume-project {
+    padding-left: 5px;
+  }
+}

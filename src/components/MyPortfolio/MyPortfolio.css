@@ -1,0 +1,97 @@
+.my-portfolio-container {
+  width: 90%;
+  margin: 50px auto;
+}
+.my-portfolio-container .my-portfolio-title {
+  display: inline-block;
+  font-size: 35px;
+  color: #105652;
+  border-bottom: 7px solid #fca738;
+}
+
+.my-portfolio-container .project-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-portfolio-container .project-image {
+  width: 400px;
+  height: 244px;
+  border-radius: 12px;
+  margin: 10px 0px;
+}
+
+/* Responsive Myportfolio.css */
+/* for screen-size 970px-1235px */
+@media screen and (min-width: 970px) and (max-width: 1235px) {
+  .my-portfolio-container .my-portfolio-title {
+    font-size: 33px;
+  }
+
+  .my-portfolio-container .project-image {
+    width: 360px;
+    height: 220px;
+    margin: 15px 0px;
+  }
+}
+
+/* for screen-size 700px-970px */
+@media screen and (min-width: 700px) and (max-width: 970px) {
+  .my-portfolio-container .my-portfolio-title {
+    font-size: 30px;
+    border-bottom: 5px solid #fca738;
+  }
+
+  .my-portfolio-container .project-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .my-portfolio-container .project-image {
+    width: 310px;
+    height: 190px;
+  }
+}
+
+/* For screen-size 500px-700px */
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .my-portfolio-container .my-portfolio-title {
+    font-size: 24px;
+  }
+
+  .my-portfolio-container .project-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .my-portfolio-container .project-image {
+    width: 300px;
+    height: 180px;
+  }
+}
+
+/* For screen-size 350px-500px */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .my-portfolio-container {
+    margin: 50px auto;
+  }
+  .my-portfolio-container .my-portfolio-title {
+    font-size: 24px;
+  }
+
+  .my-portfolio-container .project-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .my-portfolio-container .project-image {
+    width: 300px;
+    height: 180px;
+  }
+}

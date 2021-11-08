@@ -1,0 +1,194 @@
+.showcase-container {
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #105652;
+}
+
+.showcase-container .showcase-text-container {
+  width: 49%;
+  font-size: 40px;
+  padding: 90px 0px 10px 80px;
+}
+
+.showcase-container .showcase-image-container {
+  width: 49%;
+}
+
+.showcase-container #user-name {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fca738;
+  text-align: left;
+  margin: 15px;
+}
+.showcase-container #user-desc {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fbf3e4;
+  text-align: left;
+  margin: 15px;
+}
+
+.showcase-container #user-tagline {
+  color: #fbf3e4;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin: 50px 20px 20px 15px;
+}
+
+.showcase-container #showcase-image {
+  margin-top: 20px;
+  width: 95%;
+}
+
+/* Responsive showcase */
+/* For screen-size 970px-1235px */
+@media screen and (min-width: 970px) and (max-width: 1235px) {
+  .showcase-container {
+    height: 425px;
+  }
+  .showcase-container .showcase-text-container {
+    padding: 80px 0px 10px 20px;
+  }
+
+  .showcase-container #user-name {
+    font-size: 33px;
+    margin-right: 5px;
+  }
+  .showcase-container #user-desc {
+    font-size: 33px;
+    margin-right: 5px;
+  }
+
+  .showcase-container #user-tagline {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 5px;
+  }
+}
+
+/* For screen-size 700px-970px */
+@media screen and (min-width: 700px) and (max-width: 970px) {
+  .showcase-container {
+    height: 400px;
+  }
+  .showcase-container .showcase-text-container {
+    width: 50%;
+    padding: 80px 0px 10px 10px;
+  }
+
+  .showcase-container .showcase-image-container {
+    width: 50%;
+  }
+
+  .showcase-container #user-name {
+    font-size: 30px;
+    margin-left: 5px;
+  }
+  .showcase-container #user-desc {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+
+  .showcase-container #user-tagline {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+
+  .showcase-container #showcase-image {
+    margin-top: 45px;
+    width: 100%;
+  }
+}
+
+/* For screen-size 500px-700px */
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .showcase-container {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+  }
+  .showcase-container .showcase-text-container {
+    width: 95%;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .showcase-container .showcase-image-container {
+    width: 95%;
+  }
+
+  .showcase-container #user-name {
+    font-size: 27px;
+    margin: 15px 5px;
+  }
+  .showcase-container #user-name span {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .showcase-container #user-desc {
+    font-size: 26px;
+    margin: 12px 5px;
+  }
+
+  .showcase-container #user-tagline {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .showcase-container #showcase-image {
+    margin: 0px 0px;
+    width: 80%;
+  }
+}
+
+/* For screen-size 350px-500px */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .showcase-container {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 0px;
+  }
+  .showcase-container .showcase-text-container {
+    width: 95%;
+    padding: 0px;
+  }
+
+  .showcase-container .showcase-image-container {
+    width: 95%;
+  }
+
+  .showcase-container #user-name {
+    font-size: 27px;
+    margin: 15px 5px;
+  }
+  .showcase-container #user-name span {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .showcase-container #user-desc {
+    font-size: 26px;
+    margin: 12px 5px;
+  }
+
+  .showcase-container #user-tagline {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .showcase-container #showcase-image {
+    margin: 0px 0px;
+    width: 80%;
+  }
+}

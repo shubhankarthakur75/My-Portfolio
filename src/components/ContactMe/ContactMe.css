@@ -1,0 +1,215 @@
+.contact-me-container {
+  width: 90%;
+  height: 606px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.contact-me-container .contact-me-title {
+  display: inline-block;
+  color: #105652;
+  font-size: 35px;
+  font-weight: 700;
+  border-bottom: 7px solid #fca738;
+  margin-top: 40px;
+}
+
+.contact-me-container .contact-me-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.contact-me-container .contact-me-left-box {
+  width: 49%;
+  padding: 20px 40px;
+}
+.contact-me-container .contact-me-right-box {
+  width: 49%;
+  text-align: center;
+}
+
+.contact-me-container .contact-me-left-box-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #105652;
+}
+
+.contact-me-container .contact-me-left-box-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.contact-me-container .contact-details-container {
+  margin-top: 40px;
+}
+.contact-me-container .contact-details-container li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #858585;
+  list-style-type: none;
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.contact-me-container .contact-details-container .contact-details-lines {
+  padding: 5px 15px;
+}
+
+.contact-me-container .contact-me-right-box #contact-us-image {
+  width: 70%;
+}
+
+/* Responsive ContactMe */
+/* For screen-size 970px-1235px */
+@media screen and (min-width: 970px) and (max-width: 1235px) {
+  .contact-me-container .contact-me-title {
+    font-size: 33px;
+  }
+}
+
+/* For screen-size 700px-970px */
+@media screen and (min-width: 700px) and (max-width: 970px) {
+  .contact-me-container {
+    height: 500px;
+    margin: 60px auto;
+  }
+  .contact-me-container .contact-me-title {
+    font-size: 30px;
+    border-bottom: 5px solid #fca738;
+  }
+
+  .contact-me-container .contact-me-left-box {
+    width: 50%;
+    padding: 20px 20px;
+  }
+
+  .contact-me-container .contact-me-right-box {
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .contact-me-container .contact-me-left-box-heading {
+    font-size: 25px;
+  }
+
+  .contact-me-container .contact-details-container li {
+    margin: 10px 0px;
+  }
+
+  .contact-me-container .contact-me-right-box #contact-us-image {
+    width: 85%;
+  }
+}
+
+/* For screen-size 500px-700px */
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .contact-me-container {
+    height: auto;
+  }
+
+  .contact-me-container .contact-me-title {
+    font-size: 24px;
+    border-bottom: 5px solid #fca738;
+    margin-top: 30px;
+  }
+
+  .contact-me-container .contact-me-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-me-container .contact-me-left-box {
+    width: 95%;
+    padding: 5px 20px;
+  }
+  .contact-me-container .contact-me-right-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-me-container .contact-me-left-box-heading {
+    font-size: 22px;
+    margin: 10px;
+  }
+
+  .contact-me-container .contact-me-left-box-text {
+    font-size: 14px;
+  }
+
+  .contact-me-container .contact-details-container {
+    margin-top: 20px;
+  }
+  .contact-me-container .contact-details-container li {
+    font-size: 14px;
+    margin: 10px 0px;
+  }
+
+  .contact-me-container .contact-details-container .contact-details-lines {
+    padding: 5px 15px;
+  }
+
+  .contact-me-container .contact-me-right-box #contact-us-image {
+    width: 60%;
+  }
+}
+
+/* For screen-size 350px-500px */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .contact-me-container {
+    height: auto;
+    margin: 50px auto;
+  }
+
+  .contact-me-container .contact-me-title {
+    font-size: 24px;
+    border-bottom: 5px solid #fca738;
+    margin-top: 30px;
+  }
+
+  .contact-me-container .contact-me-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-me-container .contact-me-left-box {
+    width: 95%;
+    padding: 5px 20px;
+  }
+  .contact-me-container .contact-me-right-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-me-container .contact-me-left-box-heading {
+    font-size: 22px;
+    margin: 10px;
+  }
+
+  .contact-me-container .contact-me-left-box-text {
+    font-size: 14px;
+  }
+
+  .contact-me-container .contact-details-container {
+    margin-top: 20px;
+  }
+  .contact-me-container .contact-details-container li {
+    font-size: 14px;
+    margin: 10px 0px;
+  }
+
+  .contact-me-container .contact-details-container .contact-details-lines {
+    padding: 5px 15px;
+  }
+
+  .contact-me-container .contact-me-right-box #contact-us-image {
+    width: 60%;
+  }
+}

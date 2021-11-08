@@ -1,0 +1,92 @@
+.navbar {
+  width: 100%;
+  height: 74px;
+  background-color: #fbf3e4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .nav-name {
+  width: 30%;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  color: #105652;
+  padding-top: 12px;
+}
+
+.navbar .nav-items {
+  width: 50%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+/* Responsive Navbar */
+/* For screen-size 970px-1235px */
+@media screen and (min-width: 970px) and (max-width: 1235px) {
+  .navbar .nav-name {
+    font-size: 26px;
+    padding-top: 15px;
+  }
+
+  .navbar .nav-items {
+    font-size: 15px;
+  }
+}
+
+/* For screen-size 700px-970px */
+@media screen and (min-width: 700px) and (max-width: 970px) {
+  .navbar {
+    height: 70px;
+  }
+  .navbar .nav-name {
+    width: 40%;
+    font-size: 24px;
+    padding-top: 15px;
+  }
+
+  .navbar .nav-items {
+    font-size: 14px;
+  }
+}
+
+/* For screen-size 500px-700px */
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .navbar {
+    height: 65px;
+  }
+  .navbar .nav-name {
+    width: 45%;
+    font-size: 22px;
+    padding-top: 15px;
+  }
+
+  .navbar .nav-items {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* For screen-size 350px-500px */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .navbar {
+    height: 74px;
+  }
+  .navbar .nav-name {
+    width: 60%;
+    font-size: 20px;
+    padding: 20px 10px 0px 10px;
+    text-align: left;
+  }
+
+  .navbar .nav-items {
+    display: none;
+  }
+}
