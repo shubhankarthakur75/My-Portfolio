@@ -24,6 +24,14 @@ class Main extends Component {
     },
     projects: [
       {
+        projectName: "My-Portfolio",
+        projectDesc:
+          " This project is based on 'React','Javascript','CSS','HTML5'.I created this project to put together all my work on a single platform. This 'My-Portfolio' contains projects, resume, contact details, and much more. I used ReactJS to make this application a 'Single Page' application. While developing this project I got to work with 'react-router-hash-link' package, class-based component, functional component, and CSS styling",
+        projectTechnology: ["React", "Javascript", "HTML5", "CSS"],
+        hostURL: "https://shubhankarthakur75.github.io/My-Portfolio/",
+        repoURL: "https://github.com/shubhankarthakur75/My-Portfolio",
+      },
+      {
         projectName: "To-Do-App JS",
         projectDesc:
           "  During the development of this project, I understood how to connect the HTML page with functionality written inside a Javascript file. Here I used multiple DOM functions, which made this application dynamic. Because of this, an application can do various operations on user input, also known as adding Dynamic HTML in the website based on the user's input.",
