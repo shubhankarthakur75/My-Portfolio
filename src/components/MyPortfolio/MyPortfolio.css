@@ -12,7 +12,7 @@
 .my-portfolio-container .project-image-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -21,7 +21,8 @@
 }
 
 .my-portfolio-container .project-image {
-  width: 400px;
+  /* width: 400px; */
+  width: auto;
   height: 244px;
   border-radius: 12px;
   margin: 10px 0px;

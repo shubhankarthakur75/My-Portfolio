@@ -7,7 +7,6 @@ import MyPortfolio from "../MyPortfolio/MyPortfolio";
 import MyResume from "../Myresume/MyResume";
 import ContactMe from "../ContactMe/ContactMe";
 import Footer from "../Footer/Footer";
-import { Routes, Route } from "react-router-dom";
 
 class Main extends Component {
   state = {
