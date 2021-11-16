@@ -132,13 +132,6 @@
   margin-bottom: 50px;
 }
 
-/* .my-resume-container .resume-project :hover {
-  background-color: #105652;
-  border-radius: 20px;
-  padding: 5px;
-  color: #ffffff;
-} */
-
 .my-resume-container .resume-project-name {
   display: inline-block;
   font-size: 20px;
@@ -163,8 +156,9 @@
   margin-right: 20px;
 }
 
-.my-resume-container .github-links :hover {
+.my-resume-container .github-links-btn:hover {
   background-color: #105652;
+  transform: scale(1.02, 1.02);
 }
 
 .my-resume-container .resume-project-desc {
