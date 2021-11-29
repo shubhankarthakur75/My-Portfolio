@@ -24,6 +24,14 @@ class Main extends Component {
     },
     projects: [
       {
+        projectName: "React-Blog-App",
+        projectDesc:
+          " This project includes capabilities React.JS and React Router mainly. While developing this project, I got to learn about, how to create multiple components in React like Smart Components and Dummy Components and how to modify and do data operations within components using state variables, and how to communicate between two components props variables. While the development of this project, I used lifecycle methods and BrowserRouter to create a single-page application.",
+        projectTechnology: ["React", "Javascript", "HTML5", "CSS"],
+        hostURL: "https://shubhankarthakur75.github.io/React-Blog-App/",
+        repoURL: "https://github.com/shubhankarthakur75/React-Blog-App",
+      },
+      {
         projectName: "My-Portfolio",
         projectDesc:
           " This project is based on 'React','Javascript','CSS','HTML5'.I created this project to put together all my work on a single platform. This 'My-Portfolio' contains projects, resume, contact details, and much more. I used ReactJS to make this application a 'Single Page' application. While developing this project I got to work with 'react-router-hash-link' package, class-based component, functional component, and CSS styling",
